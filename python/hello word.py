@@ -1,2 +1,3 @@
 import sys
-from PyQt5.Widgets import 
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout
+
