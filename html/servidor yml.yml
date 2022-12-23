@@ -1,0 +1,6 @@
+task:
+  - name: Start web http.server
+    init: python -m http.server 8000
+ports:
+  - port:8000
+    onOpen: open-preview
